@@ -1,0 +1,10 @@
+# train and val datasets (image directory or *.txt file with image paths)
+train: /content/yolor/datasets/AI4H2/images/train  # 118k images
+val: /content/yolor/datasets/AI4H2/images/val   # 5k images
+test: /content/yolor/datasets/AI4H2/images/test  # 20k images for submission to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 3
+
+# class names
+names: ['Steel', 'HTEL', 'Ni-Net']
